@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次作業也是最後一次，有了上次作業的經驗之後我更好上手也更知道要怎麼完成這次的作業了。由於我上次已經用本地跑過一次載過很多檔案了，這次只要再下載一些東西就可以順利跑起來了，這次的作業也不難只不過要花時間等他生成影片跟圖片出來，感覺還是蠻有趣的啦
     </div>
   </div>
 
@@ -169,22 +169,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - Comfy UI 環境設定完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 生成角色的圖片</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 生成完整角色動畫</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,13 +195,96 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-12 twenty" style="background-color:#00AC48;">
+      <figcaption>Comfy UI 環境設定完成</figcaption>
+      <a href="https://civitai.com/models/61643?modelVersionId=67841">CheckPoint: based66_v30</a><br>
+      <a href="https://civitai.com/models/69977/chibi-laugh">LoRA:  chibi-laugh</a><br>  
+      <img src="0.png"  width="100%"><br>
+    </div>
+  </div>
+  
+  <div class="row hw12 bottomrow">
+    <div class="col-md-4 twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片 - 1</figcaption>
+      <img src="/GIF_00001.png"  width="100%"><br>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片 - 2</figcaption>
+      <img src="/GIF_00002.png"  width="100%"><br>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#ff0000;">
+      <figcaption>生成角色的圖片 - 3</figcaption>
+      <img src="/GIF_00003.png"  width="100%"><br>
     </div>
   </div>
 
+  
+  <div class="row hw12 bottomrow">
+    <div class="col-md-4 twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫 - 1</figcaption>
+      <img src="AnimateDiff_00001.mp4" width="100%"><br>
+      <td> 使用提示詞:
+          "0": "masterpiece, best quality, 1boy, handsome, wearing baseball uniform, standing on a sunny baseball field, holding a baseball, clear blue sky, highly detailed",
+          "10": "masterpiece, best quality, 1boy, handsome, wearing baseball uniform, standing on a sunny baseball field, holding a baseball, clear blue sky, highly detailed",
+          "20": "masterpiece, best quality, 1boy, wearing baseball uniform, winding up to pitch, dynamic action pose, sunny baseball field, intense expression",
+          "30": "masterpiece, best quality, 1boy, wearing baseball uniform, winding up to pitch, dynamic action pose, sunny baseball field, intense expression",
+          "40": "masterpiece, best quality, 1boy, wearing baseball uniform, throwing the baseball, motion blur on the arm, sunny baseball field, stadium crowd in background",
+          "50": "masterpiece, best quality, 1boy, wearing baseball uniform, throwing the baseball, motion blur on the arm, sunny baseball field, stadium crowd in background",
+          "60": "masterpiece, best quality, 1boy, taking off baseball cap, wiping sweat from forehead, sunset baseball field, golden hour lighting, dramatic shadows",
+          "70": "masterpiece, best quality, 1boy, taking off baseball cap, wiping sweat from forehead, sunset baseball field, golden hour lighting, dramatic shadows",
+          "80": "masterpiece, best quality, 1boy, sitting on the dugout bench, drinking water, night game, bright stadium lights shining down, highly detailed",
+          "90": "masterpiece, best quality, 1boy, sitting on the dugout bench, drinking water, night game, bright stadium lights shining down, highly detailed",
+          "100": "masterpiece, best quality, 1boy, walking off the field, carrying a bat bag over shoulder, night stadium, glowing lights, victorious smile",
+          "110": "masterpiece, best quality, 1boy, walking off the field, carrying a bat bag over shoulder, night stadium, glowing lights, victorious smile"
+          <br><br>
+          使用負面提示詞:
+          (bad quality, worst quality:1.2, nsfw)
+      </td>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫 - 2</figcaption>
+      <img src="AnimateDiff_00002.mp4" width="100%"><br>
+      <td> 使用提示詞:
+          "0": "masterpiece, best quality, 1girl, beautiful detailed eyes, long silver hair, wearing a white summer dress, standing in a vast flower field, sunny day",
+          "10": "masterpiece, best quality, 1girl, beautiful detailed eyes, long silver hair, wearing a white summer dress, standing in a vast flower field, sunny day",
+          "20": "masterpiece, best quality, 1girl, white dress blowing in the wind, hair flowing, looking up at the clear blue sky, white petals falling",
+          "30": "masterpiece, best quality, 1girl, white dress blowing in the wind, hair flowing, looking up at the clear blue sky, white petals falling",
+          "40": "masterpiece, best quality, 1girl, turning around gracefully, gentle smile, dancing in the flower field, dynamic movement",
+          "50": "masterpiece, best quality, 1girl, turning around gracefully, gentle smile, dancing in the flower field, dynamic movement",
+          "60": "masterpiece, best quality, 1girl, sitting in the flower field, sunset golden hour, warm orange lighting, looking at a glowing butterfly",
+          "70": "masterpiece, best quality, 1girl, sitting in the flower field, sunset golden hour, warm orange lighting, looking at a glowing butterfly",
+          "80": "masterpiece, best quality, 1girl, holding a glowing magical lantern, starry night sky, bioluminescent flowers blooming around her",
+          "90": "masterpiece, best quality, 1girl, holding a glowing magical lantern, starry night sky, bioluminescent flowers blooming around her",
+          "100": "masterpiece, best quality, 1girl, looking directly at viewer, soft smile, starry night, galaxy sky, glowing fireflies, incredibly detailed",
+          "110": "masterpiece, best quality, 1girl, looking directly at viewer, soft smile, starry night, galaxy sky, glowing fireflies, incredibly detailed"
+                    <br><br>
+          使用負面提示詞:
+          (bad quality, worst quality:1.2, nsfw)
+      </td>
+    </div>
+    <div class="col-md-4 twenty" style="background-color:#7030a0;">
+      <figcaption>生成完整角色動畫 - 3</figcaption>
+      <img src="AnimateDiff_00003.mp4" width="100%"><br>
+      <td> 使用提示詞:
+       "0": "masterpiece, best quality, 1boy, cool cyberpunk techwear, black jacket, walking in a futuristic neon city, rainy night, wet street reflections",
+      "10": "masterpiece, best quality, 1boy, cool cyberpunk techwear, black jacket, walking in a futuristic neon city, rainy night, wet street reflections",
+      "20": "masterpiece, best quality, 1boy, putting on a glowing LED mask, neon lights reflecting on the mask, crowded cyberpunk street, dynamic angle",
+      "30": "masterpiece, best quality, 1boy, putting on a glowing LED mask, neon lights reflecting on the mask, crowded cyberpunk street, dynamic angle",
+      "40": "masterpiece, best quality, 1boy, running through a narrow neon alley, motion blur, glowing signs, rain splashing, intense atmosphere",
+      "50": "masterpiece, best quality, 1boy, running through a narrow neon alley, motion blur, glowing signs, rain splashing, intense atmosphere",
+      "60": "masterpiece, best quality, 1boy, standing on a skyscraper rooftop, looking down at the glowing cyber city, holographic billboards, wind blowing",
+      "70": "masterpiece, best quality, 1boy, standing on a skyscraper rooftop, looking down at the glowing cyber city, holographic billboards, wind blowing",
+      "80": "masterpiece, best quality, 1boy, taking off the mask, looking at the sunrise over the futuristic city, warm morning light hitting his face",
+      "90": "masterpiece, best quality, 1boy, taking off the mask, looking at the sunrise over the futuristic city, warm morning light hitting his face",
+      "100": "masterpiece, best quality, 1boy, confident smile, morning cyber city landscape, flying cars in the background, highly detailed eyes and face",
+      "110": "masterpiece, best quality, 1boy, confident smile, morning cyber city landscape, flying cars in the background, highly detailed eyes and face"
+        <br><br>
+          使用負面提示詞:
+          (bad quality, worst quality:1.2, nsfw)
+      </td>
+    </div>
+  </div>
+  <!-- ------------------------------------------------>
   <!-- ------------------------------------------------>
 
   <!-- ------------------------------------------------>
